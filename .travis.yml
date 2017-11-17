@@ -6,6 +6,3 @@ before_install:
 script: mvn --quiet -Ptravis,!load-test clean install
 jdk:
   - oraclejdk8
-notifications:
-  email:
-      - bcanhome@googlemail.com
